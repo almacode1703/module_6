@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Google Font Setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Tamma 2", sans-serif;
+  background-color: #2f3245; /* Dark blue background */
+}
+
+/* About Section Container */
+.about {
+  background-color: #2f3245;
+}
+
+/* Heading Style */
+.m-heading {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Style */
+.about p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #dcdcdc;
+}
+
+/* Highlighted Text */
+.text-warning {
+  color: #f9a826 !important;
+}
+
+/* Button Style */
+button.btn-outline-warning {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Button Hover Effect */
+button.btn-outline-warning:hover {
+  background-color: #f9a826;
+  color: black;
+}
+
+/* Image Styling */
+.about img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .m-heading {
+    font-size: 32px;
+  }
+
+  .about img {
+    margin-bottom: 20px;
+  }
+}
