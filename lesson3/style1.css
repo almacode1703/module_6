@@ -1,0 +1,46 @@
+/* --------- Global Body --------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  background-color: #2f3245;
+}
+
+/* --------- Headings --------- */
+.m-heading {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+/* --------- Social Media Section Background --------- */
+#social-media {
+  background-color: #2f3245;
+}
+
+/* --------- Social Media Buttons --------- */
+.media_link {
+  border: 2px solid #f9a826;
+  border-radius: 6px;
+  padding: 15px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.media_link:hover {
+  background-color: #f9a826;
+  cursor: pointer;
+}
+
+.media_link:hover h3 {
+  color: black !important;
+}
+
+.media_link:hover i {
+  color: black !important;
+}
+
+/* Icon Color */
+.text-secondary {
+  color: #9fa1ad !important;
+}
